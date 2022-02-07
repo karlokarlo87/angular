@@ -1,19 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { UserRoutingModule } from './user-routing.module';
-
+import { HomeRoutingModule } from './home-routing.module';
 import { LoginComponent } from './login/login.component';
 import { ListComponent } from './list/list.component';
-
-
+console.log("home module")
 @NgModule({
   declarations: [
-    LoginComponent,
-    ListComponent
+    ListComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
-    UserRoutingModule
+    HomeRoutingModule
   ]
 })
-export class UserModule { }
+export class HomeModule { }

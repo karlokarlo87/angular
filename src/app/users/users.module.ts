@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AdminRoutingModule } from './admin-routing.module';
+import { UsersRoutingModule } from './users-routing.module';
 import { ListComponent } from './list/list.component';
 import { LoginComponent } from './login/login.component';
 
-console.log("Admin module")
+console.log("users module")
 @NgModule({
   declarations: [
     ListComponent,
@@ -13,7 +13,7 @@ console.log("Admin module")
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    UsersRoutingModule
   ]
 })
-export class AdminModule { }
+export class UsersModule { }
